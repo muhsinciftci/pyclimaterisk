@@ -1,6 +1,8 @@
+<img src="pyclimaterisk/data/logo.png" align="right" height="175" alt=""/>
+
 This mini package provides access to latin american climate risk indices at different categoriies. Those indices are derived from a large corpus of newspapers archives and available at monthly and daily frequency. It further provides certain climate related events (laws, legistlation, presidential decrees).
 
-The package provides three different functions. Python library `Polars` is assumed to be installed. 
+The package provides three different functions. Python library `Polars` must be installed. 
 
 ```
 pip install pyclimaterisk
