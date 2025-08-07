@@ -1,0 +1,38 @@
+---
+output: github_document
+keep-md: true
+editor_options: 
+  chunk_output_type: console
+engine: jupyter
+---
+
+<img src="https://raw.githubusercontent.com/muhsinciftci/pyclimaterisk/main/pyclimaterisk/data/logo.png" align="right" height="175" alt=""/>
+
+
+This mini package provides access to latin american climate risk indices at different categories. Those indices are derived from a large corpus of newspapers archives and available at monthly and daily frequency. It further provides certain climate related events (laws, legislation, presidential decrees).
+
+The package provides three different functions. Python library `Polars` must be installed. The package can be found on PyPI under the link: [https://pypi.org/project/pyclimaterisk/](https://pypi.org/project/pyclimaterisk/)
+
+
+```{python}
+import pyclimaterisk as cr
+```
+
+
+```{python}
+cr.get_monthly_data().head()
+```
+
+
+```{python}
+cr.get_daily_data().head()
+```
+
+
+```{python}
+cr.get_events().head()
+```
+
+
+If you use this data set, please kindly cite our work as:
+- Muhsin Ciftci, and Christina Kolerus. "Climate News and Asset Valuations: Insights from Latin America", IMF Working Papers 2025, 037 (2025), https://doi.org/10.5089/9798229000932.001
