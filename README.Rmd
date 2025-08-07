@@ -3,7 +3,7 @@ output: github_document
 keep-md: true
 editor_options: 
   chunk_output_type: console
-engine: jupyter
+self_contained: yes
 ---
 
 <img src="https://raw.githubusercontent.com/muhsinciftci/pyclimaterisk/main/pyclimaterisk/data/logo.png" align="right" height="175" alt=""/>
